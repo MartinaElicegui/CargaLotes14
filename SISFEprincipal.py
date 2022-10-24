@@ -14,7 +14,7 @@ def main():
         cargarDatosProfesional(informacion,driver)
         verificarDatosCargados(informacion, driver)
         posicion = posicion + cargarDatosDemandados(informacion,driver,totalApremios,posicion)
-        if (posicion>cantidadApremios):
+        if (posicion>cantidadApremios):                                                                                                            
             msgbox("No hay más registros por cargar. Cree el lote y presione aceptar para cerrar el navegador.")
             break
 if __name__ == "__main__":
